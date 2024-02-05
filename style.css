@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 38, 165);
+    margin: 0;
+    padding: 1vw;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1vw;
+    font-size: 1.2vw;
+}
+
+section {
+    background-color: white;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1vw;
+}
+
+.user_info {
+    margin: 1vh 0;
+}
+
+.user_info h2 {
+    margin: 0;
+}
+
+.user_info p {
+    margin: 0;
+}
+
+.schedule, .editing_schedule{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.schedule table {
+    margin: 1vw;
+    border: .1vw solid rgba(114, 114, 114, 0.884);
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 1px 2px 10px rgba(161, 161, 161, 0.562);
+    text-align: center;
+}
+.schedule table thead {
+    background-color: rgb(0, 38, 165);
+    color: white;
+}
+
+.schedule table caption {
+    background-color: rgb(0, 38, 165);
+    color: white;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ratings table {
+    margin: 1vw auto;
+    border: .1vw solid rgba(114, 114, 114, 0.884);
+    width: 60vw;
+    height: 30vh;
+    box-shadow: 1px 2px 10px rgba(161, 161, 161, 0.562);
+}
+
+.ratings table .cours {
+    width: 12vw;
+}
+
+.ratings table .res {
+    width: 5vw;
+}
+
+.ratings table thead {
+    background-color: rgb(0, 38, 165);
+    color: white;
+}
+
+.ratings table caption {
+    background-color: rgb(0, 38, 165);
+    color: white;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.event-item {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin: 1vw;
+}
+
+.event-item img {
+    width: 20vw;
+    margin: 1vw;
+}
+
+.title {
+    width: 70vw;
+    margin: 2vw;
+    font-size: 2vw;
+}
+
+button {
+    border: none;
+    background-color: rgb(0, 38, 165);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.grade {
+    width: 1vw;
+    margin: 0;
+    border: .1vw rgba(114, 114, 114, 0.884) solid;
+}
